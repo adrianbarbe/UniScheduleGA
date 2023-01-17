@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniScheduleGA.Models", "UniScheduleGA.Models\UniScheduleGA.Models.csproj", "{418062A4-65CE-4397-B710-67713DBBAD28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniScheduleGA.ConsoleApp", "UniScheduleGA.ConsoleApp\UniScheduleGA.ConsoleApp.csproj", "{213D39D8-FC98-48A0-A79A-AC0975D3B5F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniScheduleGA.BLL", "UniScheduleGA.BLL\UniScheduleGA.BLL.csproj", "{66FA6FFD-2C45-4844-A21E-ABA2206A1A60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{418062A4-65CE-4397-B710-67713DBBAD28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{418062A4-65CE-4397-B710-67713DBBAD28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{418062A4-65CE-4397-B710-67713DBBAD28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{418062A4-65CE-4397-B710-67713DBBAD28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{213D39D8-FC98-48A0-A79A-AC0975D3B5F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{213D39D8-FC98-48A0-A79A-AC0975D3B5F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{213D39D8-FC98-48A0-A79A-AC0975D3B5F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{213D39D8-FC98-48A0-A79A-AC0975D3B5F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66FA6FFD-2C45-4844-A21E-ABA2206A1A60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66FA6FFD-2C45-4844-A21E-ABA2206A1A60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66FA6FFD-2C45-4844-A21E-ABA2206A1A60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66FA6FFD-2C45-4844-A21E-ABA2206A1A60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
