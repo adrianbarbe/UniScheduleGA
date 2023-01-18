@@ -11,7 +11,7 @@ class ConsoleApp
     {
         var selection = new EliteSelection();
         var crossover = new UniformCrossover(0.75f);
-        var mutation = new UniformMutation(true);
+        var mutation = new UniformMutation();
 
         var configuration = new DataProvider();
 
@@ -19,7 +19,7 @@ class ConsoleApp
 
         var chromosome = new ScheduleChromosome(configuration.CourseClasses, configuration.Professors, configuration.Courses, configuration.Rooms);
 
-        var population = new Population(50, 120, chromosome);
+        var population = new Population(150, 320, chromosome);
 
         var ga = new GeneticAlgorithm(population, fitness, selection, crossover, mutation);
         ga.Termination = new AndTermination(new ITermination[] {new FitnessThresholdTermination(1.0d), new FitnessStagnationTermination(5) });
